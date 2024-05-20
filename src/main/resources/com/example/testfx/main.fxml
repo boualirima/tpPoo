@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<VBox xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <Text text="Orthophoniste : Dr. John Doe" />
+    <Button text="Nouveau rendez-vous" onAction="#handleNewAppointment"/>
+    <Button text="Accéder aux dossiers patients" onAction="#handleViewPatients"/>
+    <Button text="Gérer les tests et anamnèses" onAction="#handleManageTests"/>
+    <Button text="Statistiques" onAction="#handleStatistics"/>
+    <Button text="Paramètres" onAction="#handleSettings"/>
+</VBox>
